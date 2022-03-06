@@ -16,8 +16,8 @@
 title: Blog de Nicolas Heiniger
 email: blog@photochrome.ch
 description: >- # this means to ignore newlines until "baseurl:"
-  Mon blog personel, probablement à propos de photographie.
-  It could also be that I speak about IT security, in that case, in english.
+  Mon blog personel, probablement à propos de photographie... ou pas.
+  It could also be that I speak about IT security, in that case, it will be in english.
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: blog.photochrome.ch
 url: "https://blog.photochrome.ch" # the base hostname & protocol for your site, e.g. http://example.com
@@ -26,7 +26,7 @@ github_username:  nheiniger
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: slate
 plugins:
   - jekyll-feed
 
