@@ -18,7 +18,7 @@ Je présente évidemment mon avis, d'autres auront probablement d'autres raisons
 
 Une deuxième raison c'est le défi technique. J'aime savoir comment fonctionnent les choses et là je suis obligé de bien maîtriser chaque élément pour obtenir un résultat à la hauteur. Je dois par exemple apprendre à composer avec l'image inversée sur le verre dépoli à l'arrière de la chambre. Tout ça me permet de mieux comprendre d'où viennent les appareils photos actuels et j'ai le plaisir de pouvoir utiliser les mêmes outils que des prédécesseurs bien plus doués que moi. Je pense en particulier à un certain [Ansel Adams](https://fr.wikipedia.org/wiki/Ansel_Adams).
 
-## Si je recommencerais  ?
+## Si je recommencerais ?
 En un mot, oui ! J'ai du plaisir à développer des images. J'ai même appris à fabriquer mon propre développeur film en utilisant de la lessive, du café et de la vitamine C. J'ai fait plein d'erreurs et j'ai aussi réussi quelques images que je trouve belles. J'ai appris à utiliser un nouvel outil pour obtenir un autre résultat.
 
 Ce n'est pas pour autant que j'abandonne le numérique. Certaines photos peuvent difficilement être prises à la chambre grand format. Mais j'ai tendance à privilégier la patience avec la chambre plutôt que l'immédiateté du numérique quand j'ai le choix.
