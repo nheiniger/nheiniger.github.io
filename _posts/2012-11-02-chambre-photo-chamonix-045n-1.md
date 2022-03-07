@@ -7,10 +7,10 @@ categories: 4x5 argentique fr
 J'ai la chance d'avoir pu acheter cette petite chambre pliable chinoise en occasion. Elle est au format 4×5 pouces (soit 10×12.5 cm) et ne pèse que 1.38 kg grâce à sa construction en bois, fibre de carbone et aluminium.  
 Les avantages de cette chambre sont évidemment sa légèreté et sa compacité. Je la transporte dans un sac d’épaule avec trois objectifs, des plans-films, un dos 6×7, un drap noir, un spot-mètre et plein de petit matériel. Au total ce n’est plus si léger, d’autant qu’il faut toujours trimbaler le trépied, mais c’est encore acceptable pour de petits trajets à pied.  Un autre point intéressant, les mouvements sont relativement importants (moins que sur une monorail mais tout de même bien utiles). Et personnellement je trouve aussi que c’est un bel objet.
 
-!(Bien protégée)[/images/2012-11-02_nhe2506-copie.jpg]
-!(Pliée)[/images/2012-11-02_nhe2510-copie.jpg]
-!(Dépliée)[/images/2012-11-02_nhe2512-copie.jpg]
-!(Tous les mouvements)[/images/2012-11-02_nhe2519-copie.jpg]
+![Bien protégée](/images/2012-11-02_nhe2506-copie.jpg)
+![Pliée](/images/2012-11-02_nhe2510-copie.jpg)
+![Dépliée](/images/2012-11-02_nhe2512-copie.jpg)
+![Tous les mouvements](/images/2012-11-02_nhe2519-copie.jpg)
 
 Elle a aussi quelques inconvénients dont des niveaux à bulle difficilement utilisables (trop visqueux et pas très bien fixé sur mon exemplaire). Un autre problème vient des contrôles sur le corps avant, les deux mêmes vis servent à changer la montée/descente du corps ainsi que son inclinaison vers l’avant ou l’arrière. Du coup il est plutôt difficile de faire l’un des mouvements sans l’autre.
 
