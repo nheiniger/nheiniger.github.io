@@ -2,7 +2,7 @@
 layout: post
 title:  "Grand format"
 date:   2012-10-25 20:31:01 +0000
-categories: 4x5 fr
+categories: 4x5 argentique fr
 ---
 En début d'année j'ai fait une folie. Je suis passé au grand format, et en argentique. Mais c'est quoi le grand format et qu'est-ce qui peut bien pousser un photographe amateur à se lancer dans cette aventure ? Voilà ce que je voudrais explorer dans cet article.
 
