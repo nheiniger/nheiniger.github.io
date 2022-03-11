@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jobo + Lego = ❤"
-date:   2022-03-11 12:45:00 +0000
+date:   2022-03-11 10:45:00 +0000
 categories: jobo lego film development fr
 ---
 J'ai construit il y a longtemps un montage en Lego qui permet de faire tourner ma cuve de développement. Je présente ma version revue et corrigée dans cet article. La version originale était basée sur les instructions d'un utilisateur d'un forum en ligne [](https://www.galerie-photo.org/n3-f2,125849.html) mais les photos ne sont plus accessibles depuis longtemps. Sans plus attendre, voilà une vidéo qui montre le fonctionnement de la machine:
