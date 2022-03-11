@@ -5,7 +5,7 @@ date:   2022-03-11 12:45:00 +0000
 categories: jobo lego film development fr
 ---
 J'ai construit il y a longtemps un montage en Lego qui permet de faire tourner ma cuve de développement. Je présente ma version revue et corrigée dans cet article. La version originale était basée sur les instructions d'un utilisateur d'un forum en ligne [](https://www.galerie-photo.org/n3-f2,125849.html) mais les photos ne sont plus accessibles depuis longtemps. Sans plus attendre, voilà une vidéo qui montre le fonctionnement de la machine:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b-i4b8jZ_jY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+<iframe width="740" src="https://www.youtube.com/embed/b-i4b8jZ_jY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 
 Mon but était d'obtenir des résultats reproductibles et de ne pas devoir agiter manuellement la cuve pendant tout le processus. Avec cette construction, je peux simplement inverser le sens de rotation toutes les 30 secondes en appuyant sur un bouton. Et j'obtiens une vitesse de rotation constante d'environ 50 tours/minute. Du coup, je peux développer tous mes films (135, 120 et 4x5) avec cette cuve (Jobo 2520 avec spirales 2502 et 2509n).
 
