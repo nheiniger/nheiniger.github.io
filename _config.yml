@@ -14,7 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: photochrome.ch
-email: blog@photochrome.ch
+#email: blog@photochrome.ch
+author:
+        name: Nicolas Heiniger
+        email: blog@photochrome.ch
 description: >- # this means to ignore newlines until "baseurl:"
   Mon blog personel, probablement à propos de photographie... ou pas.
   It could also be that I speak about IT security, in that case, it will be in english.
@@ -27,8 +30,14 @@ github_username:  nheiniger
 # Build settings
 markdown: kramdown
 theme: minima
+minima:
+    social_links:
+        twitter: nicolasheiniger
+        github: nheiniger
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # for development, serves on all interfaces
 host: 0.0.0.0
