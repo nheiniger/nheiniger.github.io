@@ -2,7 +2,8 @@
 layout: post
 title:  "Chambre photo Chamonix 045n-1"
 date:   2012-11-25 08:00:01 +0000
-categories: 4x5 argentique fr
+categories: [ Photo ]
+tags: [ 4x5, argentique, fr ]
 ---
 J'ai la chance d'avoir pu acheter cette petite chambre pliable chinoise en occasion. Elle est au format 4×5 pouces (soit 10×12.5 cm) et ne pèse que 1.38 kg grâce à sa construction en bois, fibre de carbone et aluminium.  
 Les avantages de cette chambre sont évidemment sa légèreté et sa compacité. Je la transporte dans un sac d’épaule avec trois objectifs, des plans-films, un dos 6×7, un drap noir, un spot-mètre et plein de petit matériel. Au total ce n’est plus si léger, d’autant qu’il faut toujours trimbaler le trépied, mais c’est encore acceptable pour de petits trajets à pied.  Un autre point intéressant, les mouvements sont relativement importants (moins que sur une monorail mais tout de même bien utiles). Et personnellement je trouve aussi que c’est un bel objet.

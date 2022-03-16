@@ -2,7 +2,8 @@
 layout: post
 title:  "Mamiya RZ67 Pro II"
 date:   2013-04-27 08:38:00 +0000
-categories: 120 fr
+categories: [ Photo ]
+tags: [ 120, fr ]
 ---
 ![Mamiya RZ67 Pro II](/images/rz67.jpg)
 

@@ -2,7 +2,8 @@
 layout: post
 title:  "Cheatsheet"
 date:   2013-01-10 08:00:00 +0000
-categories: 4x5 120. argentique fr
+categories: [ Photo ]
+tags: [ 4x5, 120, argentique, fr ]
 ---
 Une *cheatsheet*, littéralement une feuille de triche, devrait plutôt être vu comme un aide-mémoire. Quand on fait de l'argentique on n'a pas accès aux données EXIFs, ces informations enregistrées automatiquement avec la photo qui vous renseignent sur l'appareil utilisé, la date et l'heure de prise de vue, les réglages de l'appareils et même parfois la position GPS de la prise de vue ! Ces informations sont bien utiles pour comprendre ce qui s'est passé quand on a pris une photo et pour améliorer la prochaine. Alors pour pallier à ce manque il existe de cheatsheet. J'en ai fait une pour le format 4×5 pouces qui me convient bien et une seconde pour le format 120 dont je ne suis pas encore totalement satisfait. Je vous décrit ici celle pour le format 4×5 et vous aurez les liens pour télécharger les fichiers qui vous permettront de les personnaliser.
 

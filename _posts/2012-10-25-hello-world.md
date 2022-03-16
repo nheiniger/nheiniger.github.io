@@ -2,7 +2,8 @@
 layout: post
 title:  "Hello world!"
 date:   2012-10-25 16:54:06 +0000
-categories: hello en fr
+categories: [ Misc ]
+tags: [ hello, fr ]
 ---
 Mon premier post ! Oui, j'ai craqué, je me suis fait un blog. J'ai donc le plaisir d'écrire ces quelques pixels. Sachez que ce blog n'est pas prévu pour avoir une audience folle, tout au plus la famille, les amis, des photographes amateurs, moi, et peut-être vous, qui sait ?
 

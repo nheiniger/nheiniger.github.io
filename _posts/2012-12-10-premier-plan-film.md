@@ -2,7 +2,8 @@
 layout: post
 title:  "Premier plan-film"
 date:   2012-12-10 08:00:00 +0000
-categories: 4x5 argentique fr
+categories: [ Photo ]
+tags: [ 4x5, argentique, fr ]
 ---
 Je parlais de grand format et de chambre photo dans mes deux derniers articles. Une fois qu'on a fait le tour du matériel on peut passer à la pratique, mais comment se passe une prise de vue à la chambre grand-format ? Quelle est la marche à suivre pour faire une photographie ?
 

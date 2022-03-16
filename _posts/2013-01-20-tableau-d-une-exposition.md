@@ -2,7 +2,8 @@
 layout: post
 title:  "Le tableau d'une exposition"
 date:   2013-01-20 10:29:00 +0000
-categories: exposition fr
+categories: [ Photo ]
+tags: [ aexposition, fr ]
 ---
 Monter une exposition, voilà une ambition qui est présente chez de nombreux photographes. Mais lorsqu'on veut la concrétiser c'est une autre histoire. Je résume ici l'expérience que j'ai faite pour ma seconde exposition qui a lieu en ce moment. Je mettrai ce billet à jour après le décrochage.
 

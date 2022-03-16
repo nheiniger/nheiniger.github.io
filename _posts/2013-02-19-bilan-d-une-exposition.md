@@ -2,7 +2,8 @@
 layout: post
 title:  "Bilan d'une exposition"
 date:   2013-02-19 11:19:00 +0000
-categories: exposition fr
+categories: [ Photo ]
+tags: [ exposition, fr ]
 ---
 Comme annoncé, mon exposition au CIP de Tramelan s'est achevée dimanche soir par le décrochage des oeuvres. Je vous livre ici le bilan que je fais de cette exposition. Je vous propose trois angles :
 - un point de vue photographique,

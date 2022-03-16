@@ -2,7 +2,8 @@
 layout: post
 title:  "Prochaine exposition"
 date:   2012-12-02 20:29:01 +0000
-categories: exposition fr
+categories: [ Photo ]
+tags: [ exposition, fr ]
 ---
 ![Invitation ecpo 2013](/images/expo-2013-invitation.jpg)
 
