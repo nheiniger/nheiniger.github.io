@@ -6,19 +6,19 @@ categories: [ Security ]
 tags: [ ctf, write-up, insomnihack, en ]
 ---
 In this challenge we are given several files:
-- ´train.txt´, a text file with a specific text
-- ´train.raw´, a raw audio file containing the recording of someone typing the text of ´train.txt´
-- ´password.raw´, a raw audio file containing the recording of someone typing his password
-- ´english.txt´, a dictionary with english words
+- `train.txt`, a text file with a specific text
+- `train.raw`, a raw audio file containing the recording of someone typing the text of `train.txt`
+- `password.raw`, a raw audio file containing the recording of someone typing his password
+- `english.txt`, a dictionary with english words
 We knew that the password and the training text were typed on the same keyboard and that the password consist of 8 lowecase words separated by a space.
 
 To solve this challenge, we use a tool named Skype&Type, and more precisely, a fork of the original tool allowing for python3 <https://github.com/yossigor/Skype-Type>. As a first step, the readme specifies that the audio files must be *.wav (Microsoft), 32bit float PCM*. We can convert the raw audio in that format easily with Audacity. We also take the opportunity to remove the mouse clicks at the end of the password file, just to avoid any issue there. Then, again from the readme, the text file must have exactly ine character per line and contain no space (replaced here by '-').
-´´´bash
+```bash
 $cat ~/Desktop/cantc/text-5128d7a07be645364c74495048889cf7666c515d99d4b0d247e1d8218c49f6c0.txt | sed 's/ /-/g' | sed -r 's/(.)/\1\n/g' > cantc-train/train.txt
-´´´
+```
 
-Then, we need to train the tool (generate a model). This is done as follows (where ´cantc-train´ is a folder containing the text and audio files):
-´´´bash
+Then, we need to train the tool (generate a model). This is done as follows (where `cantc-train` is a folder containing the text and audio files):
+```bash
 $ python3 generate_model.py cantc-train model
 Found 1 files already mined
 Found 0 files to mine
@@ -27,15 +27,15 @@ Learning task completed!
 Writing model to disk
 Estimating accuracy...
 0.7272727272727274
-´´´
+```
 
 Then, we can run the model against the password recording:
-´´´bash
+```bash
 $ python3 main.py --opmode from_file --target cantc-password/password.wav --pipeline model
-´´´
+```
 
 The tool then lists the predictions for each character:
-´´´
+```
 PREDICTIONS
 0 - ['r', 'n', 'g', 'h', 'e', 't', 'v', '-', 'y', 'm']
 1 - ['l', 'o', 'd', 'm', 'a', 'h', 'e', 'p', 'n', 'x']
@@ -90,10 +90,10 @@ PREDICTIONS
 50 - ['-', 'e', 'w', 't', 'q', 'v', 'b', 'm', 'y', 'r']
 51 - ['-', 'e', 'w', 'm', 't', 'g', 'b', 'q', 'r', 'v']
 52 - ['-', 'e', 'w', 't', 'n', 'm', 'k', 'v', 'b', 'c']
-´´´
+```
 
 For some reason there are more characters than can be heard in the audio file... but we can already see some words, tomato at the end for example . The tool continues and asks some questions. We can specify which character separates the words ('-' in our case) and then the position of the spaces. They are detected correctly in the first column:
-´´´bash
+```bash
 ARE THESE WORDS? [Y/n] Y
 Which are the word separators? (separated with spaces): -
 Hint me the correct word segmentation (Suggested spaces in [6, 9, 10, 15, 20, 22, 27, 28, 32, 36, 39, 43, 50, 51, 52]): 6 10 15 22 27 28 36 43 50 51 52 53
@@ -101,10 +101,10 @@ Available dictionaries:
 0 - /home/jsmith/tools/Skype-Type/dictionaries/cantc-english.txt
 1 - /home/jsmith/tools/Skype-Type/dictionaries/README.md
 Select dictionary number ([0]): 0
-´´´
+```
 
 After this, we get a list of possible words for each "slot":
-´´´bash
+```bash
 WORD FROM CHARACTER 0 to 6
 [('glance', 4), ('reduce', 11), ('notice', 13), ('bounce', 16), ('planet', 16), ('reject', 18), ('detect', 19), ('nature', 19), ('rotate', 19), ('enable', 22), ('gadget', 22), ('rocket', 22), ('volume', 22), ('rather', 23), ('remove', 23
 ), ('double', 24), ('source', 24), ('toilet', 24), ('addict', 25), ('expect', 25), ('gather', 25), ('insect', 25), ('plunge', 25), ('rabbit', 25), ('result', 25), ('robust', 25), ('lounge', 26), ('viable', 26), ('change', 27), ('retire',
@@ -141,8 +141,8 @@ WORD FROM CHARACTER 44 to 50
 [('tomato', 0), ('tenant', 7), ('donate', 13), ('inmate', 17), ('wonder', 17), ('debate', 18), ('vendor', 18), ('depart', 19), ('voyage', 19), ('potato', 20), ('render', 20), ('timber', 20), ('moment', 21), ('toward', 21), ('tunnel', 21)
 , ('cement', 22), ('rotate', 22), ('velvet', 22), ('demand', 23), ('engage', 23), ('estate', 23), ('female', 23), ('number', 23), ('sunset', 23), ('tongue', 23), ('either', 24), ('tumble', 24), ('behave', 25), ('nephew', 25), ('vessel', 
 25)]
-´´´
+```
 
-And as we can see, the words are presented with a number representing the confidence that the word is correct (actually this is probably the minimal distance with the provided dictionary words). We had to do mmultiple runs and try several different combinations before getting the correct flag but in the end it worked. The final flag was ´INS{glance fun deny strong lend primary fringe tomato}´. If you want to test it for yourself, here are the original files [](/images/2022-03-27_insomnihack-cantc-files.zip).
+And as we can see, the words are presented with a number representing the confidence that the word is correct (actually this is probably the minimal distance with the provided dictionary words). We had to do mmultiple runs and try several different combinations before getting the correct flag but in the end it worked. The final flag was `INS{glance fun deny strong lend primary fringe tomato}`. If you want to test it for yourself, here are the original files [](/images/2022-03-27_insomnihack-cantc-files.zip).
 
 Last note, I reproduced the challenge today on my machine for this write-up, but originally it was made by [@sploutchy](https://twitter.com/sploutchy). I only gave some suggestions and offered psychologic support while watching over his shoulder.
