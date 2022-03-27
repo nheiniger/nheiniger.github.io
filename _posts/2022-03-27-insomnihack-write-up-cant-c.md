@@ -12,9 +12,9 @@ In this challenge we are given several files:
 - `english.txt`, a dictionary with english words
 We knew that the password and the training text were typed on the same keyboard and that the password consist of 8 lowecase words separated by a space.
 
-To solve this challenge, we use a tool named Skype&Type, and more precisely, a fork of the original tool allowing for python3 <https://github.com/yossigor/Skype-Type>. As a first step, the readme specifies that the audio files must be *.wav (Microsoft), 32bit float PCM*. We can convert the raw audio in that format easily with Audacity. We also take the opportunity to remove the mouse clicks at the end of the password file, just to avoid any issue there. Then, again from the readme, the text file must have exactly ine character per line and contain no space (replaced here by '-').
+To solve this challenge, we use a tool named Skype&Type, and more precisely, a fork of the original tool allowing for python3: <https://github.com/yossigor/Skype-Type>. As a first step, the readme specifies that the audio files must be *.wav (Microsoft), 32bit float PCM*. We can convert the raw audio in that format easily with Audacity. We also take the opportunity to remove the mouse clicks at the end of the password file, just to avoid any issue there. Then, again from the readme, the text file must have exactly ine character per line and contain no space (replaced here by '-').
 ```bash
-$cat ~/Desktop/cantc/text-5128d7a07be645364c74495048889cf7666c515d99d4b0d247e1d8218c49f6c0.txt | sed 's/ /-/g' | sed -r 's/(.)/\1\n/g' > cantc-train/train.txt
+$cat ~/Desktop/cantc/text.txt | sed 's/ /-/g' | sed -r 's/(.)/\1\n/g' > cantc-train/train.txt
 ```
 
 Then, we need to train the tool (generate a model). This is done as follows (where `cantc-train` is a folder containing the text and audio files):
@@ -40,8 +40,8 @@ PREDICTIONS
 0 - ['r', 'n', 'g', 'h', 'e', 't', 'v', '-', 'y', 'm']
 1 - ['l', 'o', 'd', 'm', 'a', 'h', 'e', 'p', 'n', 'x']
 2 - ['a', 't', 'd', 'u', 'x', 's', 'v', 'm', 'e', 'q']
-3 - ['b', 'e', 'n', 'u', 'l', 'h', 'm', 'k', '-', 'o']                                                                
-4 - ['c', 'v', 'm', 'e', 'j', 'z', 'h', 't', 'x', 'b']  
+3 - ['b', 'e', 'n', 'u', 'l', 'h', 'm', 'k', '-', 'o']
+4 - ['c', 'v', 'm', 'e', 'j', 'z', 'h', 't', 'x', 'b']
 5 - ['e', 't', 'f', 'w', 'q', 'o', 'u', 'g', 'y', 'x']
 6 - ['-', 'h', 'r', 'b', 'g', 'm', 'v', 'd', 'p', 'y']
 7 - ['f', 'd', 'a', 's', 'g', 'e', 't', 'j', 'z', 'v']
@@ -143,6 +143,6 @@ WORD FROM CHARACTER 44 to 50
 25)]
 ```
 
-And as we can see, the words are presented with a number representing the confidence that the word is correct (actually this is probably the minimal distance with the provided dictionary words). We had to do mmultiple runs and try several different combinations before getting the correct flag but in the end it worked. The final flag was `INS{glance fun deny strong lend primary fringe tomato}`. If you want to test it for yourself, here are the original files [](/images/2022-03-27_insomnihack-cantc-files.zip).
+And as we can see, the words are presented with a number representing the confidence that the word is correct (actually this is probably the minimal distance with the provided dictionary words). We had to do mmultiple runs and try several different combinations before getting the correct flag but in the end it worked. The final flag was `INS{glance fun deny strong lend primary fringe tomato}`. If you want to test it for yourself, here are [the original files](/images/2022-03-27_insomnihack-cantc-files.zip).
 
 Last note, I reproduced the challenge today on my machine for this write-up, but originally it was made by [@sploutchy](https://twitter.com/sploutchy). I only gave some suggestions and offered psychologic support while watching over his shoulder.
