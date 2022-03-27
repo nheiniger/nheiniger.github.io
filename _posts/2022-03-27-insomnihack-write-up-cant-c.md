@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Insomni'hack 2022 - Can't C"
-date:   2022-03-27 14:00:00 +0000
+date:   2022-03-27 12:00:00 +0000
 categories: [ Security ]
 tags: [ ctf, write-up, insomnihack, en ]
 ---
