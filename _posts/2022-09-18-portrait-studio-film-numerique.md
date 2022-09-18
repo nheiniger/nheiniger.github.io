@@ -22,6 +22,6 @@ Sur les 3 photos suivantes, le flash arrière était éteint:
 
 ![Portrait numéro 4](/images/2022-09-18_studio-braderie/2022-09-11_braderie_009.jpg)
 
-À vous maintenant, que pensez vous de ces portraits? Et quelles images ont été prises en numérique ou en argentique? Pour moi, les deux résultats sont bons. Il y a plus de travail pour l'argentique, mais cet effort additionnel me force à être à mon affaire, pleinement conscient de ce que je fais... au risque de ne pas avoir de photo du tout!
+À vous maintenant, que pensez vous de ces portraits? Et quelles images ont été prises en numérique ou en argentique? Pour moi, les deux résultats sont bons et je suis fier du résultat. Il y a plus de travail pour l'argentique, mais cet effort additionnel me force à être à mon affaire, pleinement conscient de ce que je fais... au risque de ne pas avoir de photo du tout!
 
 Note: le diagramme du studio a été fait à l'aide de <http://www.lightingdiagrams.com> Merci au créateur pour cet outil bien pratique.
