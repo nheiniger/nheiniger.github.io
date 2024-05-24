@@ -22,3 +22,5 @@ If you want to play the game too, or modify it for your own needs you can do it:
 - [Play the game](/images/2024-05-23_cyoa/CYOA - Red Team edition.html)
 - Download the original .twee file: [CYOA - Red Team edition.twee](/images/2024-05-23_cyoa/CYOA - Red Team edition.twee)
 The game was created with [Twinery](https://twinery.org) and you can easily import and modify it in your browser. And I don't explicitely license the game, feel free to do what you want with it. But of course credit is appreciated and I'd be interested to know what you did with it and how it went.
+
+One last thing, kudos to Tim Malcolm Vetter who inspired this talk with his [blog series: Choose Your Own Red Team Adventure](https://malcomvetter.medium.com/choose-your-own-red-team-adventure-f87d6a3b0b76)  And my thanks goes to Roei Sherman who had a look at my first draft and encouraged me to continue. He also did something similar but more targeted to business people, have a look at [his blog](https://betheadversary.com/posts/be_the_adversary_adventure/).
